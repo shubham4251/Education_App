@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.slideshow.SlideshowFragment">
+<TextView
+    android:id="@+id/tv1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="We'd love to hear from you"
+    android:textColor="@color/design_default_color_on_secondary"
+    android:textSize="20sp"
+    android:gravity="center_horizontal"
+    android:layout_marginTop="30dp"
+    />
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv1"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"
+        android:text="For all kind of queries related to course, zenclass and other plargorm related information"
+        android:gravity="center_horizontal"
+        android:background="@color/cardview_shadow_start_color"
+        android:textColor="@color/design_default_color_on_secondary"
+
+        />
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/tv2"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ic_baseline_email_24"
+            android:backgroundTint="@color/design_default_color_on_secondary"
+            android:layout_marginTop="5dp"
+
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            />
+
+        <ImageButton
+            android:id="@+id/emailButton"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ic_baseline_arrow_right_alt_24"
+            android:layout_marginLeft="150dp"
+            android:backgroundTint="@color/design_default_color_on_secondary"
+            />
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"
+        android:text="you will get a reply back from us within 48 hours"
+        android:gravity="center_horizontal"
+        android:background="@color/cardview_shadow_start_color"
+        android:textColor="@color/design_default_color_on_secondary"
+
+        />
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/tv3"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ic_baseline_share_24"
+            android:backgroundTint="@color/design_default_color_on_secondary"
+            android:layout_marginTop="5dp"
+
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Follow Us"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            />
+
+        <ImageButton
+            android:id="@+id/instaButton"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/instagram"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+
+
+            />
+        <ImageButton
+            android:id="@+id/linedInButton"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/linkedin"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+
+
+            />
+        <ImageButton
+            android:id="@+id/facebookButton"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/facebook"
+
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            />
+        <ImageButton
+            android:id="@+id/twitterButton"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/twitter"
+
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            />
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Visit Us"
+        android:layout_below="@id/ll2"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:gravity="center_horizontal"
+        android:textSize="25sp"/>
+
+
+</RelativeLayout>

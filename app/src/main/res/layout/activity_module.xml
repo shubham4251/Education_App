@@ -1,0 +1,117 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:videoId="VHbSopMyc4M"
+        app:autoPlay="true"
+        app:showFullScreenButton="false" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:textSize="30sp"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/design_default_color_on_secondary"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/design_default_color_on_secondary"
+                android:text="Complete summary of module can be written here with point to remember from this module.These all information can be take through either api or firebase database i have just made it static for now "/>
+
+            <TextView
+                android:id="@+id/practiceTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Practice Problem"
+                android:textSize="30sp"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/design_default_color_on_secondary"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Status: "
+                    android:textSize="25sp"
+                    android:textColor="@color/design_default_color_on_secondary"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Complete/pending"
+                    android:textSize="25sp"
+                    ></TextView>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/quizTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Quiz"
+                android:textSize="30sp"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/design_default_color_on_secondary"/>
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/listView"
+                android:layout_marginTop="10dp">
+
+
+            </ListView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Status: "
+                    android:textSize="25sp"
+                    android:textColor="@color/design_default_color_on_secondary"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Complete/pending"
+                    android:textSize="25sp"
+                    ></TextView>
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+</LinearLayout>
